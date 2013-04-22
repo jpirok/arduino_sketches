@@ -67,8 +67,9 @@ long microsecondsToInches(long microseconds)
 
 long ping()
 {
-  // from the second link up top I factored the code out of the loop() function 
-  // into a callable function that returns a distance that makes the code above 
+  // from the second link up top: I factored the code out of the loop() function 
+  // that was responsible for polling the sensor for distance
+  // into a function that returns a distance. This makes the code in the loop function 
   // a little more readable.
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
