@@ -1,5 +1,10 @@
 /* HC-SR04 Sensor controlling DC motor speed.
  
+ This arduino code shows:
+   use of the pulse width modulator function
+   use of a four wire distance sensor
+   example of PWM controlling DC motor
+
  code and circuits from
  http://oomlout.com/a/products/ardx/circ-03/ for basic motor connection
  https://gist.github.com/flakas/3294829 for PING sensor code
